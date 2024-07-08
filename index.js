@@ -586,5 +586,10 @@ async function startServer() {
     console.log(`Server running on http://localhost:${port}`);
   });
 }
+function Testing(){
+  return 0;
+}
+Testing();
+
 
 startServer();
