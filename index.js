@@ -590,6 +590,9 @@ function Testing(){
   return 0;
 }
 Testing();
-
+function Test2(){
+  return false;
+}
+Test2();
 
 startServer();
