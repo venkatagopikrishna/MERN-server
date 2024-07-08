@@ -1,4 +1,4 @@
-name: Auto Merge Main to Testing Branch
+name: Auto Merge Main to Testing Branch in server
 on:
 push:
   push:
@@ -11,7 +11,7 @@ jobs:
     - name: Checkout the repo
       uses: actions/checkout@v3
       with:
-      token:${{secrets.Actions_pat}}
+      token: ${{secrets.ACTIONS_PAT}}
     -name: Configure Git
       run:  |
         git config --global user.name "venkatagopikrishna"
